@@ -14,7 +14,7 @@ This program includes an extented version of ChemTS that is parallelizaed by MPI
 
 The main python script is alw_chemts/mpi_thread_chemts_tree_vl.py. 
 
-Paralleled search is performed based on Intel MPI environment using fl_chemts/job_sub.sh.
+Paralleled search is performed based on Intel MPI environment using alw_chemts/job_sub.sh.
 
 1. cd alw_chemts
 2. qsub job_sub
