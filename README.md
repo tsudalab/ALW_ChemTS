@@ -12,14 +12,14 @@ This program includes an extented version of ChemTS that is parallelizaed by MPI
 
 # Usage
 
-The main python script is alw_chemts/mpi_thread_chemts_tree_vl.py. 
+The main python script is ALW_ChemTS/mpi_thread_chemts_tree_vl.py. 
 
-Paralleled search is performed based on Intel MPI environment using alw_chemts/job_sub.sh.
+Paralleled search is performed based on Intel MPI environment using ALW_ChemTS/job_sub.sh.
 
 1. cd alw_chemts
 2. qsub job_sub
 
-Please setup your MPI and python environment, in alw_chemts/job_sub.sh.
+Please setup your MPI and python environment, in ALW_ChemTS/job_sub.sh.
 
 # Dataset
 We used 153,253 molecules that contain only H, O, N, and C elements obtained from the ZINC database for trainig of the RNN network.
