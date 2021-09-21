@@ -1,5 +1,5 @@
 # ALW_ChemTS
-Parallelized ChemTS (https://github.com/tsudalab/ChemTS) for the design of molecules that absorb light at long wavelengths. 
+Parallelized ChemTS for the design of molecules that absorb light at long wavelengths. Original ChemTS is available here (https://github.com/tsudalab/ChemTS).
 
 This program includes an extented version of ChemTS that is parallelizaed by MPI and a filter for Gaussian (https://gaussian.com) to compute absorption wavelength of a molecule. The Gaussian filter automatically computes the optimized singlet ground (S0) state and vertical singlet excited (S1) state of a molecule at the density functional theory level.
 
